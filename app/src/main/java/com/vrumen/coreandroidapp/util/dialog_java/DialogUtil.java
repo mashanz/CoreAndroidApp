@@ -1,4 +1,4 @@
-package com.bilinedev.ikasmariagitma.util.dialog_java;
+package com.vrumen.coreandroidapp.util.dialog_java;
 
 import android.app.ProgressDialog;
 import android.content.Context;

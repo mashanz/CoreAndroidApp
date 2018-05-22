@@ -1,7 +1,7 @@
-package com.bilinedev.ikasmariagitma.util
+package com.vrumen.coreandroidapp.util
 
 import android.support.v4.app.FragmentManager
-import com.bilinedev.ikasmariagitma.R
+import com.vrumen.coreandroidapp.R
 
 /**
  * Created by deny on bandung.

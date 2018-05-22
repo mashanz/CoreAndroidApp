@@ -1,4 +1,4 @@
-package com.bilinedev.ikasmariagitma.util;
+package com.vrumen.coreandroidapp.util;
 
 /**
  * Created by deny on bandung.

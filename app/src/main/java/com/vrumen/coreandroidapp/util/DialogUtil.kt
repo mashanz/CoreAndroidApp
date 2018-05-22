@@ -1,14 +1,14 @@
-package com.bilinedev.ikasmariagitma.util
+package com.vrumen.coreandroidapp.util
 
 import android.app.ProgressDialog
 import android.content.Context
 import android.os.Build
 import android.support.v4.app.FragmentManager
 import android.view.Window
-import com.bilinedev.ikasmariagitma.ui.dialog.ConfirmationDialog
-import com.bilinedev.ikasmariagitma.ui.dialog.CreateTopicDialog
-import com.bilinedev.ikasmariagitma.ui.dialog.MessageDialog
-import com.bilinedev.ikasmariagitma.ui.dialog.PasswordDialog
+import com.vrumen.coreandroidapp.ui.dialog.ConfirmationDialog
+import com.vrumen.coreandroidapp.ui.dialog.CreateTopicDialog
+import com.vrumen.coreandroidapp.ui.dialog.MessageDialog
+import com.vrumen.coreandroidapp.ui.dialog.PasswordDialog
 
 /**
  * Created by Chandra on 7/14/17.

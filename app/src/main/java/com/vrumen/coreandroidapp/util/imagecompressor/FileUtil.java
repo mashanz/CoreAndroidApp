@@ -1,4 +1,4 @@
-package com.bilinedev.ikasmariagitma.util.imagecompressor;
+package com.vrumen.coreandroidapp.util.imagecompressor;
 
 import android.content.Context;
 import android.database.Cursor;

@@ -1,4 +1,4 @@
-package com.bilinedev.ikasmariagitma.util
+package com.vrumen.coreandroidapp.util
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -15,9 +15,9 @@ import android.view.inputmethod.InputMethodManager
 import android.widget.EditText
 import android.widget.Filter
 import android.widget.Toast
-import com.bilinedev.ikasmariagitma.R
-import com.bilinedev.ikasmariagitma.model.VotingImageModel
-import com.bilinedev.ikasmariagitma.ui.dialog.ConfirmationDialog
+import com.vrumen.coreandroidapp.R
+import com.vrumen.coreandroidapp.model.VotingImageModel
+import com.vrumen.coreandroidapp.ui.dialog.ConfirmationDialog
 import com.google.firebase.iid.FirebaseInstanceId
 import org.json.JSONException
 import org.json.JSONObject

@@ -14,7 +14,7 @@ import android.widget.EditText
 import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.TextView
-import com.bilinedev.ikasmariagitma.util.DialogUtil
+import com.vrumen.coreandroidapp.util.DialogUtil
 import com.vrumen.coreandroidapp.R
 import org.jetbrains.anko.find
 import pl.aprilapps.easyphotopicker.EasyImage

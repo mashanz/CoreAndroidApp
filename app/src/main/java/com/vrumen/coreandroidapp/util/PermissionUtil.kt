@@ -1,4 +1,4 @@
-package com.bilinedev.ikasmariagitma.util
+package com.vrumen.coreandroidapp.util
 
 import android.Manifest
 import android.app.Activity
@@ -7,7 +7,7 @@ import android.content.pm.PackageManager
 import android.support.v4.app.ActivityCompat
 import android.support.v4.app.FragmentManager
 import android.support.v4.content.ContextCompat
-import com.bilinedev.ikasmariagitma.ui.dialog.MessageDialog
+import com.vrumen.coreandroidapp.ui.dialog.MessageDialog
 
 /**
  * Created by Chandra on 7/14/17.

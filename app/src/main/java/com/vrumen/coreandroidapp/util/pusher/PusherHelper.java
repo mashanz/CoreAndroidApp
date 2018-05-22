@@ -1,4 +1,4 @@
-package com.bilinedev.ikasmariagitma.util.pusher;
+package com.vrumen.coreandroidapp.util.pusher;
 
 import android.app.Activity;
 import android.util.Log;

@@ -1,4 +1,4 @@
-package com.bilinedev.ikasmariagitma.util.recycler;
+package com.vrumen.coreandroidapp.util.recycler;
 
 import android.graphics.Canvas;
 import android.graphics.Rect;
