@@ -14,8 +14,10 @@ import android.widget.EditText
 import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.TextView
-import com.vrumen.coreandroidapp.MainActivity
+import com.bilinedev.ikasmariagitma.util.DialogUtil
 import com.vrumen.coreandroidapp.R
+import org.jetbrains.anko.find
+import pl.aprilapps.easyphotopicker.EasyImage
 
 /**
  * Created by bilinedev on 22/05/18.
@@ -70,19 +72,6 @@ abstract class MVPActivity : AppCompatActivity() {
         toolbarTitle?.text = title
         toolbarIcon?.setOnClickListener({
             setResult(Activity.RESULT_CANCELED, Intent())
-            finish()
-        })
-    }
-
-    fun setNavigationBack(title: String, bypass: Boolean) {
-        if (toolbarTitle == null || toolbarIcon == null) initToolbar()
-        toolbarIcon?.setImageResource(R.drawable.ic_back_line)
-        toolbarIcon?.visibility = View.VISIBLE
-        toolbarTitle?.text = title
-        toolbarIcon?.setOnClickListener({
-            var i = Intent(this, MainActivity::class.java)
-            i.putExtra("topup", true)
-            startActivity(i)
             finish()
         })
     }

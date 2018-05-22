@@ -5,7 +5,7 @@ import android.support.v4.app.Fragment
 import android.view.View
 import com.vrumen.coreandroidapp.MainActivity
 import com.vrumen.coreandroidapp.R
-
+import kotlinx.android.synthetic.main.navigation_toolbar.*
 /**
  * Created by bilinedev on 22/05/18.
  * There are many bug here (may be)

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar_custom"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="@color/colorPrimary"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/toolbar_icon"
+        android:layout_width="55dp"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:background="@drawable/bg_btn_navigation"
+        android:padding="13dp"
+        android:scaleType="centerInside"
+        android:tint="@color/white"
+        tools:ignore="ContentDescription" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="8dp"
+            android:paddingEnd="5dp"
+            android:paddingStart="10dp"
+            android:paddingTop="8dp">
+
+            <EditText
+                android:id="@+id/ed_search"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:hint="Cari"
+                android:inputType="text"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/btn_clear"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginEnd="3dp"
+                android:background="@drawable/bg_btn_trans_grey"
+                android:padding="3dp"
+                android:src="@drawable/ic_clear"
+                android:visibility="gone"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <ImageButton
+        android:id="@+id/toolbar_menu_right"
+        android:layout_width="55dp"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:background="@drawable/bg_btn_navigation"
+        android:gravity="center"
+        android:padding="13dp"
+        android:scaleType="centerInside"
+        android:textColor="@color/white"
+        android:tint="@color/white"
+        android:visibility="gone"
+        tools:ignore="ContentDescription" />
+
+
+</LinearLayout>
